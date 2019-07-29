@@ -1,0 +1,76 @@
+#mainpanel{
+-fx-background-image: url('kidwrite.jpg');
+-fx-background-repeat:no-repeat;
+-fx-background-size:cover;
+-fx-opacity:0.8;
+/*
+-fx-background-color: rgba(0, 100, 100, 0.8);
+*/
+
+
+}
+#title{
+
+-fx-text-fill:black;
+-fx-font-size:50px;
+-fx-text-fill:black;
+-fx-padding:30px;
+-fx-opacity:1;
+
+}
+
+#imageview{
+
+ -fx-opacity: 0.9;
+
+}
+
+#number{
+
+-fx-font-weight: bold;
+-fx-text-fill:black;
+-fx-padding:20px;
+-fx-font-size:40px;
+-fx-opacity:1;
+
+}
+#sample{
+-fx-text-fill:black;
+-fx-font-size:120px;
+-fx-text-fill:black;
+-fx-padding:30px;
+-fx-opacity:1;
+}
+
+#proceed{
+
+-fx-background-color: rgba(0, 100, 100, 0.3);
+-fx-padding:15px;
+-fx-text-fill:black;
+-fx-border-radius: 30;
+-fx-font-size:20px;
+-fx-opacity:1;
+}
+
+
+#field{
+
+-fx-background-color: transparent, white, transparent, white;
+    -fx-background-radius: 0, 0, 0, 0;
+    -fx-padding: 0.166667em;
+-fx-opacity:1;
+
+}
+
+
+#proceed:hover{
+-fx-background-color: rgba(0, 500, 500, 0.3);
+-fx-opacity:1;
+}
+
+#board{
+
+-fx-font-size:40px;
+-fx-text-fill:black;
+-fx-opacity:1;
+}
